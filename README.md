@@ -55,6 +55,9 @@ Karma Registry enables NGOs to receive a dynamic, verifiable **reputation score*
 | Phase 2 | Reflector Oracle integration: audits, price feeds, climate/territory context |
 | Phase 3 | Decentralized Identity (DID/VC) with Veramo + cross-org credential registry |
 
+> Only **Phase 1** is being delivered as part of the Hackathon.  
+> Phases 2 and 3 are part of the extended development roadmap.
+
 ---
 
 ## Built by

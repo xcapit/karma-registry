@@ -1,42 +1,43 @@
-#Karma Registry
+# 🌍 Karma Registry
 
 **Karma Registry** is a public reputation platform for humanitarian NGOs, developed during the [HackMeridian 2025](https://www.stellar.org/events/meridian) hackathon. It leverages Stellar smart contracts, Reflector Oracles, and decentralized identity protocols (DID + VC) to bring transparency, trust, and verifiability to the humanitarian aid sector.
 
-website: [karma-registry.lovable.app](https://karma-registry.lovable.app)  
-Repository: [github.com/xcapit/karma-registry](https://github.com/xcapit/karma-registry)
+🔗 Website: [karma-registry.lovable.app](https://karma-registry.lovable.app)  
+📦 Repository: [github.com/xcapit/karma-registry](https://github.com/xcapit/karma-registry)  
+📺 Demo Video: [youtu.be/Ecg_dnD7UtY](https://youtu.be/Ecg_dnD7UtY?si=hut4DCwsnX1jPp7O)
 
 ---
 
-## What is Karma Registry?
+## 💡 What is Karma Registry?
 
 Karma Registry enables NGOs to receive a dynamic, verifiable **reputation score** based on a combination of on-chain and off-chain data:
 
 - **SoulBound Tokens (SBTs)** represent the verified identity and trust level of each organization.
-- A **Trust Index** is calculated based on on-chain aid transactions, beneficiary verification, audit submissions, and operational capacity.
+- A **Trust Index** is calculated based on on-chain aid transactions, beneficiary verification, audit submissions, and organizational capacity.
 - All credentials and claims are anchored on-chain using Stellar smart contracts and validated through Reflector Oracles.
 
 ---
 
-## Key Features
+## 🔐 Key Features
 
--  **SoulBound Token issuance** after KYB verification
-- Dynamic, transparent **Trust Index**
-- **Reflector Oracles** for audit validation, price feeds, and contextual data (climate, region)
-- Currency normalization across local fiat and crypto using on-chain oracles
-- **Decentralized Identity** using Veramo agents + Verifiable Credentials (W3C standard)
+- ✅ **SoulBound Token issuance** after KYB verification  
+- 📊 Dynamic and transparent **Trust Index**  
+- 🔗 **Reflector Oracles** for audit validation, price feeds, and contextual data (climate, region)  
+- 💱 Currency normalization across fiat and crypto using on-chain oracles  
+- 🪪 **Decentralized Identity** via Veramo agents + Verifiable Credentials (W3C standard)  
 
 ---
 
-## Tech Stack
+## 🧠 Tech Stack
 
 - **Smart Contracts**: [Soroban](https://soroban.stellar.org/) (Stellar WASM)
 - **Oracle Layer**: [Reflector](https://reflector.network/)
 - **Identity Layer**: [Veramo](https://veramo.io/) — off-chain DID/VC agent
-- **Blockchain**: Stellar 
+- **Blockchain**: Stellar
 
 ---
 
-## Architecture Overview
+## 🛠 Architecture Overview
 
 1. NGOs complete KYB and link a Stellar wallet.
 2. A **SoulBound Token** is issued on-chain to represent their identity.
@@ -47,35 +48,50 @@ Karma Registry enables NGOs to receive a dynamic, verifiable **reputation score*
 
 ---
 
-## Roadmap
+## 🗺 Roadmap
 
-| Phase | Feature Set |
-|-------|-------------|
-| Phase 1 | KYB flow, SBT minting, dashboard UI, testnet deployment |
-| Phase 2 | Reflector Oracle integration: audits, price feeds, climate/territory context |
-| Phase 3 | Decentralized Identity (DID/VC) with Veramo + cross-org credential registry |
+| Phase     | Feature Set                                                                 |
+|-----------|------------------------------------------------------------------------------|
+| Phase 1 ✅ | KYB flow, SBT minting, dashboard UI, testnet deployment                     |
+| Phase 2   | Reflector Oracle integration: audits, price feeds, climate/territory context |
+| Phase 3   | Decentralized Identity (DID/VC) with Veramo + cross-org credential registry  |
 
 > Only **Phase 1** is being delivered as part of the Hackathon.  
 > Phases 2 and 3 are part of the extended development roadmap.
 
 ---
 
-## Built by
+## 🧪 On-Chain Components
 
--  [Xcapit](https://xcapit.com) – Blockchain & AI software factory
--  [Lovable Studio](https://lovable.studio) – Product & UX design
--  Powered by [Stellar](https://stellar.org), [Reflector](https://reflector.network), and [Veramo](https://veramo.io)
+### 🔹 AURA Token (SBT)
+- Smart Contract on Testnet:  
+  [CBHDY7Q3KSGVXQTTNPJD6KFJXSEAERRVN2SMM5EI2EHF4B4A3IHQGG2H](https://stellar.expert/explorer/testnet/contract/CBHDY7Q3KSGVXQTTNPJD6KFJXSEAERRVN2SMM5EI2EHF4B4A3IHQGG2H)
+
+### 🔹 Shelter Contract (NGO onboarding + scoring)
+- Smart Contract on Testnet:  
+  [CAXFRTR6RGJ76VKLQCPDFVOAXFN5UJ4JKQR6WDWZ353ZV6WI5UWREGGO](https://stellar.expert/explorer/testnet/contract/CAXFRTR6RGJ76VKLQCPDFVOAXFN5UJ4JKQR6WDWZ353ZV6WI5UWREGGO)
+
+### 🔗 Token + Shelter Integration Code:
+- GitHub Branch: [`meridianhack2025`](https://github.com/xcapit/shelter/tree/meridianhack2025)
 
 ---
 
-## License
+## 🤝 Built by
+
+- 🧠 [Xcapit](https://xcapit.com) – Blockchain & AI software factory  
+- 🎨 [Lovable Studio](https://lovable.studio) – Product & UX design  
+- 🌐 Powered by [Stellar](https://stellar.org), [Reflector](https://reflector.network), and [Veramo](https://veramo.io)
+
+---
+
+## 📜 License
 
 This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.  
 See [LICENSE](./LICENSE) for more details.
 
 ---
 
-## Acknowledgements
+## 🙌 Acknowledgements
 
 Special thanks to the Stellar community, the HackMeridian team, and all contributors and open-source projects that made this possible.
 

@@ -1,14 +1,13 @@
-# karma-registry
-# 🌍 Karma Registry
+#Karma Registry
 
 **Karma Registry** is a public reputation platform for humanitarian NGOs, developed during the [HackMeridian 2025](https://www.stellar.org/events/meridian) hackathon. It leverages Stellar smart contracts, Reflector Oracles, and decentralized identity protocols (DID + VC) to bring transparency, trust, and verifiability to the humanitarian aid sector.
 
-🔗 website: [karma-registry.lovable.app](https://karma-registry.lovable.app)  
-📦 Repository: [github.com/xcapit/karma-registry](https://github.com/xcapit/karma-registry)
+website: [karma-registry.lovable.app](https://karma-registry.lovable.app)  
+Repository: [github.com/xcapit/karma-registry](https://github.com/xcapit/karma-registry)
 
 ---
 
-## 💡 What is Karma Registry?
+## What is Karma Registry?
 
 Karma Registry enables NGOs to receive a dynamic, verifiable **reputation score** based on a combination of on-chain and off-chain data:
 
@@ -18,17 +17,17 @@ Karma Registry enables NGOs to receive a dynamic, verifiable **reputation score*
 
 ---
 
-## 🔐 Key Features
+## Key Features
 
-- ✅ **SoulBound Token issuance** after KYB verification
-- 📊 Dynamic, transparent **Trust Index**
-- 🔗 **Reflector Oracles** for audit validation, price feeds, and contextual data (climate, region)
-- 🪙 Currency normalization across local fiat and crypto using on-chain oracles
-- 🪪 **Decentralized Identity** using Veramo agents + Verifiable Credentials (W3C standard)
+-  **SoulBound Token issuance** after KYB verification
+- Dynamic, transparent **Trust Index**
+- **Reflector Oracles** for audit validation, price feeds, and contextual data (climate, region)
+- Currency normalization across local fiat and crypto using on-chain oracles
+- **Decentralized Identity** using Veramo agents + Verifiable Credentials (W3C standard)
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 - **Smart Contracts**: [Soroban](https://soroban.stellar.org/) (Stellar WASM)
 - **Oracle Layer**: [Reflector](https://reflector.network/)
@@ -37,7 +36,7 @@ Karma Registry enables NGOs to receive a dynamic, verifiable **reputation score*
 
 ---
 
-## 🛠 Architecture Overview
+## Architecture Overview
 
 1. NGOs complete KYB and link a Stellar wallet.
 2. A **SoulBound Token** is issued on-chain to represent their identity.
@@ -48,32 +47,32 @@ Karma Registry enables NGOs to receive a dynamic, verifiable **reputation score*
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 
 | Phase | Feature Set |
 |-------|-------------|
-| 🧪 Phase 1 | KYB flow, SBT minting, dashboard UI, testnet deployment |
-| 🔍 Phase 2 | Reflector Oracle integration: audits, price feeds, climate/territory context |
-| 🔐 Phase 3 | Decentralized Identity (DID/VC) with Veramo + cross-org credential registry |
+| Phase 1 | KYB flow, SBT minting, dashboard UI, testnet deployment |
+| Phase 2 | Reflector Oracle integration: audits, price feeds, climate/territory context |
+| Phase 3 | Decentralized Identity (DID/VC) with Veramo + cross-org credential registry |
 
 ---
 
-## 🤝 Built by
+## Built by
 
-- 🧠 [Xcapit](https://xcapit.com) – Blockchain & AI software factory
-- 🎨 [Lovable Studio](https://lovable.studio) – Product & UX design
-- 🌐 Powered by [Stellar](https://stellar.org), [Reflector](https://reflector.network), and [Veramo](https://veramo.io)
+-  [Xcapit](https://xcapit.com) – Blockchain & AI software factory
+-  [Lovable Studio](https://lovable.studio) – Product & UX design
+-  Powered by [Stellar](https://stellar.org), [Reflector](https://reflector.network), and [Veramo](https://veramo.io)
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.  
 See [LICENSE](./LICENSE) for more details.
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 Special thanks to the Stellar community, the HackMeridian team, and all contributors and open-source projects that made this possible.
 
